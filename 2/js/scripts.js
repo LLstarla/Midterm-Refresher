@@ -8,3 +8,8 @@ var msg1 = 'Better your life with more stuff!';
 var msg2 = 'Star Trek > Star Wars!';
 
 $('.header').text(msg2);
+
+
+$('.message .close').on('click', function() {
+  $(this).closest('.message').fadeOut();
+});
