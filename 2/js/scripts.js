@@ -5,5 +5,6 @@
 
 
 var msg1 = 'Better your life with more stuff!';
+var msg2 = 'Star Trek > Star Wars!';
 
-$('.header').text(msg1);
+$('.header').text(msg2);
