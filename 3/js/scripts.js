@@ -11,4 +11,50 @@ var bad = ['fuck' , 'shit' , 'damn'];
 
 console.log($('.text:contains("fuck")').length);
 
-$('.text:contains()').addClass('bad');
+$('.text:contains("fuck")').addClass('bad');
+
+
+
+
+
+
+for (var i=0; i < bad.length; i++ ) {
+
+	console.log(bad[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
